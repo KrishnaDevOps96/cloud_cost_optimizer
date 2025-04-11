@@ -1,0 +1,7 @@
+project_id: your-gcp-project-id
+zone: us-central1-a
+credentials_file: /app/service-account-key.json
+bigquery_dataset: billing_data
+bigquery_table: gcp_billing
+cost_threshold: 50
+log_level: INFO

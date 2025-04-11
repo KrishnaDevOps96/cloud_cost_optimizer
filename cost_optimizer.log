@@ -1,0 +1,11 @@
+INFO:root:Starting AWS cost optimization...
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:AWS Date: 2025-04-03, Cost: $0.00
+INFO:root:AWS Date: 2025-04-04, Cost: $0.00
+INFO:root:AWS Date: 2025-04-05, Cost: $0.00
+INFO:root:AWS Date: 2025-04-06, Cost: $0.00
+INFO:root:AWS Date: 2025-04-07, Cost: $0.00
+INFO:root:AWS Date: 2025-04-08, Cost: $0.00
+INFO:root:AWS Date: 2025-04-09, Cost: $0.00
+INFO:root:AWS Average Cost: $0.00
+INFO:root:AWS optimization complete.
