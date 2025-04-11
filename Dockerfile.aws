@@ -1,0 +1,7 @@
+FROM python:3.9-slim
+WORKDIR /app
+COPY requirements/aws_requirements.txt .
+RUN pip install -r aws_requirements.txt
+COPY aws_cost_optimizer.py .
+COPY config/aws_config.yaml config/
+CMD ["python", "aws_cost_optimizer.py"]
